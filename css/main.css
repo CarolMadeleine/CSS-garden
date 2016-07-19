@@ -1,0 +1,61 @@
+*{
+	margin:0px auto;
+}
+body {
+       	background:#F7F7F7;
+       	background-image: url(fondo-2.jpg);
+       	background-size: 100% 100%;
+     	background-repeat: no-repeat;
+		background-attachment: fixed;
+		margin: 0px;
+	}
+h1{
+	font-family: lucida;
+	font-size: 250px;
+	text-align: center;
+}
+h2{
+	font-family: verdana;
+	font-size: 40px;
+	text-align: center;
+}
+div p{
+	font-family: 'Lato', sans-serif;
+	opacity: none;
+}
+tr{
+	text-align: center;
+}
+table{
+	opacity:0.6;
+}
+
+footer{
+	text-align: center;
+	font-family: Lobster 1.4;
+}
+.content-box-blue{
+	background-color: #F0FFFF;
+	border: 1px solid #F0FFFF;
+	margin: 0 0 0px;
+	overflow: hidden;
+	padding: 50px;
+	font-family: century;
+	font-size: 30px;
+	text-align: center;
+	color:#008000;
+}
+.content-box-red{
+	background-color: #e2e2f9;
+	border: 1px solid #bebde9;
+	margin: 0 0 0px;
+	overflow: hidden;
+	padding: 30px;
+	font-family: century;
+	font-size: 30px;
+	text-align: center;
+}
+@font-face {
+    font-family: "Lobster 1.4";
+    src: url(css/Lobster 1.4.otf);
+}
